@@ -1,0 +1,4 @@
+data/gfx/char/monster/mesh/housing_npc/housing_npc_01.pmg
+data/gfx/char/monster/mesh/housing_npc/housing_npc_02.pmg
+data/gfx/char/monster/mesh/housing_npc/housing_npc_03.pmg
+data/db/Race.xml

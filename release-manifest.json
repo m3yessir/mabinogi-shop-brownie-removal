@@ -1,0 +1,63 @@
+{
+  "name": "Shop Brownie Removal",
+  "author": "m3yessir",
+  "version": "v0.1.0-beta",
+  "filename": "m3yessirShopBrownieRemoval_00001.it",
+  "archiveBytes": 1218626,
+  "archiveSha256": "4a54933ae348ef0abb2657e4ae95dd167349df37dada81553dd3f7e44fcd67a4",
+  "files": [
+    {
+      "path": "data/gfx/char/monster/mesh/housing_npc/housing_npc_01.pmg",
+      "bytes": 101927,
+      "sha256": "b4ed6fcc490e0d2e9a4597bace7e26a7d39fffaaceba2beb3a311b7a251fb5d5"
+    },
+    {
+      "path": "data/gfx/char/monster/mesh/housing_npc/housing_npc_02.pmg",
+      "bytes": 112317,
+      "sha256": "e59cdd2cb93559dd2f7057a68e21fb708fd96e7561971864d7bcbf06e9c83100"
+    },
+    {
+      "path": "data/gfx/char/monster/mesh/housing_npc/housing_npc_03.pmg",
+      "bytes": 106141,
+      "sha256": "964b069501d069ca3ad773fecbdf3f012d82ec1e8799f56f503c929a9429d8d7"
+    },
+    {
+      "path": "data/db/Race.xml",
+      "bytes": 28031836,
+      "sha256": "45a457de4e2f2ee27db4112a0bd385e548b2f751a7a5719382023d8c13456fe2"
+    }
+  ],
+  "changes": [
+    {
+      "id": 201,
+      "before": "/housing_npc/steward/",
+      "after": "/housing_npc/steward/no_name/"
+    },
+    {
+      "id": 202,
+      "before": "/housing_npc/crafts/",
+      "after": "/housing_npc/crafts/no_name/"
+    },
+    {
+      "id": 203,
+      "before": "/housing_npc/music_01/",
+      "after": "/housing_npc/music_01/no_name/"
+    },
+    {
+      "id": 204,
+      "before": "/housing_npc/music_02/",
+      "after": "/housing_npc/music_02/no_name/"
+    },
+    {
+      "id": 205,
+      "before": "/housing_npc/music_03/",
+      "after": "/housing_npc/music_03/no_name/"
+    }
+  ],
+  "runtimeStatus": "The author tested Test 2 and confirmed that brownie models and names disappeared while shop signs remained usable. This release contains the same four payload files. This does not establish coverage of every brownie variant or every mod combination.",
+  "verification": {
+    "payloadsIdenticalToTest2": true,
+    "exactEntryList": true,
+    "roundtripBytesMatch": true
+  }
+}
