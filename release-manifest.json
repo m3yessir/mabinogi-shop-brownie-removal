@@ -1,10 +1,10 @@
 {
   "name": "Shop Brownie Removal",
   "author": "m3yessir",
-  "version": "v0.1.0-beta",
-  "filename": "m3yessirShopBrownieRemoval_00001.it",
+  "version": "v0.1.1-beta",
+  "filename": "m3yessirShopBrownieRemoval_00002.it",
   "archiveBytes": 1218626,
-  "archiveSha256": "4a54933ae348ef0abb2657e4ae95dd167349df37dada81553dd3f7e44fcd67a4",
+  "archiveSha256": "f5a4d474ecf880e649ae698c5b222e5e17d5b93e6c8016a5e581ce8acbac71f1",
   "files": [
     {
       "path": "data/gfx/char/monster/mesh/housing_npc/housing_npc_01.pmg",
@@ -23,40 +23,40 @@
     },
     {
       "path": "data/db/Race.xml",
-      "bytes": 28031836,
-      "sha256": "45a457de4e2f2ee27db4112a0bd385e548b2f751a7a5719382023d8c13456fe2"
+      "bytes": 28031926,
+      "sha256": "a1e14ecc44dd55c8ce66ca66eb64a2765143a774577031438f51b179a1408e76"
     }
   ],
-  "changes": [
+  "changesFromV010": [
     {
       "id": 201,
-      "before": "/housing_npc/steward/",
-      "after": "/housing_npc/steward/no_name/"
+      "before": "/housing_npc/steward/no_name/",
+      "after": "/housing_npc/steward/no_name/not_talk/"
     },
     {
       "id": 202,
-      "before": "/housing_npc/crafts/",
-      "after": "/housing_npc/crafts/no_name/"
+      "before": "/housing_npc/crafts/no_name/",
+      "after": "/housing_npc/crafts/no_name/not_talk/"
     },
     {
       "id": 203,
-      "before": "/housing_npc/music_01/",
-      "after": "/housing_npc/music_01/no_name/"
+      "before": "/housing_npc/music_01/no_name/",
+      "after": "/housing_npc/music_01/no_name/not_talk/"
     },
     {
       "id": 204,
-      "before": "/housing_npc/music_02/",
-      "after": "/housing_npc/music_02/no_name/"
+      "before": "/housing_npc/music_02/no_name/",
+      "after": "/housing_npc/music_02/no_name/not_talk/"
     },
     {
       "id": 205,
-      "before": "/housing_npc/music_03/",
-      "after": "/housing_npc/music_03/no_name/"
+      "before": "/housing_npc/music_03/no_name/",
+      "after": "/housing_npc/music_03/no_name/not_talk/"
     }
   ],
-  "runtimeStatus": "The author tested Test 2 and confirmed that brownie models and names disappeared while shop signs remained usable. This release contains the same four payload files. This does not establish coverage of every brownie variant or every mod combination.",
+  "runtimeStatus": "No-talk change reported working in game by m3yessir.",
   "verification": {
-    "payloadsIdenticalToTest2": true,
+    "payloadsIdenticalToWorkingNoTalkTest": true,
     "exactEntryList": true,
     "roundtripBytesMatch": true
   }
